@@ -4,8 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Planilhas</title>
+    <style>
+        body{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        table{
+            width: 400px;
+            border-collapse: collapse;
+            border: 5px solid darkgray;
+        }
+        tr.linha1{
+            background-color: blueviolet ;
+        }
+        td{
+            border: 1px black solid;
+            padding: 8px;
+        }
+        td.dadodiferente{
+            background-color: red;
+        }
+    </style>
 </head>
 <body>
-    
+    <h1>Minha primeira planilha</h1>
+    <table>
+        <tr class="linha1">
+            <td>A1</td>
+            <td>B1</td>
+            <td>C1</td>
+            <td>D1</td>
+        </tr>
+        <tr>
+            <td class="dadodiferente">A2</td>
+            <td>B2</td>
+            <td>C2</td>
+            <td>D2</td>
+        </tr>
+        <tr>
+            <td>A3</td>
+            <td>B3</td>
+            <td>C3</td>
+            <td>D3</td>
+        </tr>
+    </table>
 </body>
 </html>
